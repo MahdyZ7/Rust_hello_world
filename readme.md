@@ -19,6 +19,11 @@ this creates an exutable ```./target/debug/[project name]```
 cargo run
 ```
 
+```
+cargo test
+cargo clippy // checks for commen mistakes
+cargo fmt // auto format the code
+```
 - cargo use for simpelicity so that a work flow looks like
 ```
 git clone example.org/someproject
