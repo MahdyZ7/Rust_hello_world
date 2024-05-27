@@ -44,7 +44,7 @@ fn main() {
         test_string: quadratic.test_string.clone(),
         ..quadratic
     };
-	let quadratic2 = Eq::linear(1,0);
+	let quadratic2 = Eq::linear(dbg!(2 * quadratic1.x0_coff), 0);
     quadratic.test_string.push_str(" NANANAN");
     quadratic.x2_coff = 0;
     println!("the fisrt quadratic {:#?}", quadratic);
